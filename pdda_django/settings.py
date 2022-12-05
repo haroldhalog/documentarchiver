@@ -28,9 +28,6 @@ SECRET_KEY = 'django-insecure-v(!)y2fv58uges^ub#r9n!-oydq=2m%=tv!5b@-x&9lih9^+^t
 TEMPLATE_DEBUG = True
 DEBUG = False
 
-if DEBUG:
-    EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'https://documentarchiver-production.up.railway.app/']
 
 
