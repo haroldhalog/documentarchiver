@@ -31,7 +31,7 @@ DEBUG = False
 if DEBUG:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'https://documentarchiver-production.up.railway.app/']
 
 
 # Application definition
